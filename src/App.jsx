@@ -6,7 +6,7 @@ import Project from './pages/Project';
 
 function App() {
   return (
-    // Routing 
+    // Routing from here
     <>                                  
       <Router>
         <Navbar />
