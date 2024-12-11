@@ -6,7 +6,8 @@ import Project from './pages/Project';
 
 function App() {
   return (
-    <>
+    // Routing here
+    <>                                  
       <Router>
         <Navbar />
         <Routes>
