@@ -1,10 +1,11 @@
 import React from "react";
 import shape from '../assets/shape4.png';
-import project1 from '../assets/Project1.png';
+import project1 from '../assets/Tweet_Desk.mp4';
 import pro2 from '../assets/Project2.mp4';
 import pro3 from '../assets/card3.mp4';
 import pro4 from '../assets/project 4.mp4';
 import Footer from './../components/Footer';
+
 
 function Project() {
   return (
@@ -20,8 +21,10 @@ function Project() {
 
       <div className="mt-16 md:mt-28 grid grid-cols-1 gap-10">
         {/* First car: Image on left, text on right */}
-        <div className="flex flex-col md:flex-row items-center">
-          <img src={project1} alt="Car 1" className="w-full md:w-1/2 rounded-xl" />
+        <div className="flex flex-col md:flex-row items-center pt-10 md:pt-20">
+          <video autoPlay 
+            loop 
+            muted  src={project1} alt="pro 1" className="w-full md:w-1/2 rounded-xl" />
           <div className="mt-5 md:mt-0 md:ml-5 text-left">
             <h2 className="text-2xl md:text-4xl font-semibold">TweetDeck | Full Stack</h2>
             <p className="text-sm md:text-lg text-gray-600 pt-2">TweetDeck is a full-stack application for managing tweets,
