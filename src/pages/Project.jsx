@@ -110,7 +110,7 @@ function Project() {
             className="w-full md:w-1/2 rounded-xl" 
           />
           <div className="mt-5 md:mt-0 md:ml-5 text-left">
-            <h2 className="text-2xl md:text-4xl font-semibold">DashBoard | Assignment_Task</h2>
+            <h2 className="text-2xl md:text-4xl font-semibold">DashBoard | Figma-Code</h2>
             <p className="text-sm md:text-lg text-gray-600 pt-2 md:pt-5">Figma design into a functional web project
             implement a visually appealing and interactive web application that meets your project requirements.
             </p>
