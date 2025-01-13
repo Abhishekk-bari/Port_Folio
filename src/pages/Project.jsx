@@ -5,6 +5,7 @@ import pro2 from '../assets/Project2.mp4';
 import pro3 from '../assets/card3.mp4';
 import pro4 from '../assets/project 4.mp4';
 import Footer from './../components/Footer';
+import dash from '../assets/dasboard.png'
 
 
 function Project() {
@@ -100,6 +101,25 @@ function Project() {
             <p>Angular, TailwindCSS, Lenis, Nodejs, ExpressJS, MongoDB, Vercel</p>
           </div>
         </div>
+      
+      {/* five car: Image on left, text on right */}
+      <div className="flex flex-col md:flex-row items-center pt-10 md:pt-20">
+          <img 
+            src={dash} 
+            alt="dash" 
+            className="w-full md:w-1/2 rounded-xl" 
+          />
+          <div className="mt-5 md:mt-0 md:ml-5 text-left">
+            <h2 className="text-2xl md:text-4xl font-semibold">DashBoard | Assignment_Task</h2>
+            <p className="text-sm md:text-lg text-gray-600 pt-2 md:pt-5">Figma design into a functional web project
+            implement a visually appealing and interactive web application that meets your project requirements.
+            </p>
+            <p>React+Vite, TailwindCSS, React-DOM, React Icons, Vercel, Axios, Supabase, Prisma ORM</p>
+          </div>
+        </div>
+      
+      
+      
       </div>
       <Footer />
     </div>
