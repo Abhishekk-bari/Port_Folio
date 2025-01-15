@@ -22,11 +22,11 @@ function Project() {
       </div>
 
       <div className="mt-16 md:mt-28 grid grid-cols-1 gap-10">
-        {/* First car: Image on left, text on right */}
+        {/* First card: Image on left, text on right */}
         <div className="flex flex-col md:flex-row items-center pt-10 md:pt-20">
           <video autoPlay 
             loop 
-            muted  src={project1} alt="pro 1" className="w-full md:w-1/2 rounded-xl" />
+            muted href="twitter.abhibari.tech" src={project1} alt="pro 1" className="w-full md:w-1/2 rounded-xl" />
           <div className="mt-5 md:mt-0 md:ml-5 text-left">
             <h2 className="text-2xl md:text-4xl font-semibold">TweetDeck | Full Stack</h2>
             <p className="text-sm md:text-lg text-gray-600 pt-2">TweetDeck is a full-stack application for managing tweets,
@@ -43,6 +43,7 @@ function Project() {
             autoPlay 
             loop 
             muted 
+            href="https://saa-s-landing-page-sage.vercel.app/"
             src={pro2} 
             alt="Car 2" 
             className="w-full md:w-1/2 rounded-xl" 
